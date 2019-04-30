@@ -1,4 +1,4 @@
-package com.panxw.aes.jni;
+package com.example.gary.weatherjniapp.jni;
 
 public class CitySearchNative {
 	static {
@@ -9,5 +9,7 @@ public class CitySearchNative {
 		}
 	}
 
-	public native String stringFromJNI();
+	public static synchronized native String getStringFromJNI();
+
+	public static synchronized native String searchCityFromJNI(String keyword);
 }

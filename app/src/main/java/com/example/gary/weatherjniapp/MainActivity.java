@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private String getStringFromJni(){
-        return CitySearchNative.stringFromJNI();
+        return CitySearchNative.getStringFromJNI();
     }
 }
