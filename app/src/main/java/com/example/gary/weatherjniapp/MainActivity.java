@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.gary.weatherjniapp.jni.CitySearchNative;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -16,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         tv.setText(stringFromJNI());
     }
 
-    private String getStringFromJni(){
+    private String stringFromJNI(){
         return CitySearchNative.getStringFromJNI();
     }
 }

@@ -28,7 +28,7 @@
 
 
 /*********************** FUNCTION DEFINITIONS ***********************/
-int searchCity(BYTE keyword[])
+int doSearchCity(BYTE keyword[])
 {
     int adcode = 0;
 	return adcode;

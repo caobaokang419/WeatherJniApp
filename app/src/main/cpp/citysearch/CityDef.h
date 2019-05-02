@@ -11,7 +11,7 @@ typedef unsigned int WORD;             // 32-bit word, change to "long" for 16-b
 
 
 /*********************** FUNCTION DECLARATIONS **********************/
-int searchCity(BYTE keyword[]);
+int doSearchCity(BYTE keyword[]);
 
 
 #endif //WEATHERJNIAPP_CITYDEF_H
